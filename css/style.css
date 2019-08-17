@@ -1,0 +1,60 @@
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(../images/title2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+  
+}
+.center .brightness{
+    /*background-color: white;*/
+  transition: transform .5s;
+  width: 180px;
+  height: 230px;
+  margin: 0 auto; 
+  opacity: 0.5;
+}
+
+.center .brightness:hover{
+  opacity: 1.0;
+  -ms-transform: scale(1.0); /* IE 9 */
+  -webkit-transform: scale(1.0); /* Safari 3-8 */
+  transform: scale(1.1); 
+  box-shadow: 0 0 8px wheat;
+  opacity: 1;
+}
+
+.center{
+  position: relative;
+  margin-left: 30%;
+}
+#text{
+  margin-top: 7%;
+  margin-left: 5%;  
+  height: 15vh; 
+  font-size: 34px;
+  /*font-weight: 900;*/
+  font-family: Imprint MT Shadowr;
+  color: white;
+
+}
+.btn{
+  background-color: black;
+  color: white;
+  margin-left: 15%;
+  width: 200;
+  height: 50px;
+  transition:  0.9s ease;
+  font-family:Footlight MT Light;
+  font-size:18;
+  opacity: 0.5;
+  padding: 10px 20px;
+  border-radius: 22px;
+}
+.btn:hover{
+  background-color: white;
+  color:black;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* popup*/
